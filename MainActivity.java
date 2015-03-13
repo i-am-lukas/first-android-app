@@ -43,6 +43,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onStop() {
         super.onStop();
         Log.i(TAG, "onStop");
+        Log.i(TAG, "Stopping");
     }
 
 
